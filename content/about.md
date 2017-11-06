@@ -1,8 +1,15 @@
+<img src="img/pexels.jpeg" width="1000" height="250" alt="pixels">
 Om sidan
 ==============================================
 
-Länk till kursen [dbwebb course design](http://dbwebb.se/design).
+Länk till kursen [dbwebb kurs design](http://dbwebb.se/design).
 
-GiHub länk till kursen [canax/anax-flat](git@github.com:canax/anax-flat.git).
+GiHub länk till kursen [Github](https://github.com/Northernberg/Anax-flat).
 
-Skaparen över sidan är jag: [Gustav Nordberg](https://mikaelroos.se) (mos@dbwebb.se).
+Om mig
+==============================================
+Tja! Jag heter Gustav och är nuvarande student på BTH där jag studerar Webbprogrammering.
+Jag fick intresset att skapa hemsidor när jag studerar webbutveckling på gymnasiet och kände
+att allt inom webben är väldigt brett och intressant. Jag kommer från stockholm där jag var en
+riktig datornörd vilket har gjort att jag skaffat intresset för delvis webben och väldigt mycket
+annat inom datorer och teknik.

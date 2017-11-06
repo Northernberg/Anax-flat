@@ -3,8 +3,9 @@ titleBreadcrumb: Home
 ...
 Anax-Flat hemsida
 ===============================
+![A butterfly](img/butterfly.jpg)
 
 Tja!
-Välkommen till mig sida som jag har byggt för kursen *Design*
+Välkommen till min sida som jag har byggt för kursen *Design*
 
 /Gustav

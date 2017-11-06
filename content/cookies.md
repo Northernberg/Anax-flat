@@ -1,4 +1,4 @@
 About cookies
 ==============================================
 
-What about cookies?
+We use cookies
