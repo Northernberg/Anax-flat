@@ -3,7 +3,7 @@
  * @author Mikael Roos <mos@dbwebb.se>
  * @see {@link https://github.com/janaxs/responsive-menu}
  */
-(function() {
+(function () {
     "use strict";
 
     // Get the items needed for the menu to work.
@@ -21,7 +21,7 @@
     /**
      * Set the size of the max menu.
      */
-    var setMaxMenuSize = function() {
+    var setMaxMenuSize = function () {
         if (menuMax === null) {
             return;
         }
@@ -38,7 +38,7 @@
      * for li click events but only valid for the mobile version. The desktop
      * version uses hover instead och click events.
      */
-    var showSubmenu = function(event) {
+    var showSubmenu = function (event) {
         //console.log("Show submenu");
 
         if (this.parentNode.classList.contains("rm-desktop")) {
@@ -58,13 +58,13 @@
     /**
      * Add eventlisteners for each li holding a submenu
      */
-    Array.prototype.filter.call(submenus, function(element) {
+    Array.prototype.filter.call(submenus, function (element) {
         element.addEventListener("click", showSubmenu);
         //console.log("found submenu");
     });
 
     // To support WordPress menus
-    Array.prototype.filter.call(submenuswp, function(element) {
+    Array.prototype.filter.call(submenuswp, function (element) {
         // Add a clickable button to (max) menu
         var button = document.createElement("a");
 
@@ -82,7 +82,7 @@
     /**
      * Show the menu when clicking on the closed (mobile) menu button.
      */
-    menuButton.addEventListener("click", function(event) {
+    menuButton.addEventListener("click", function (event) {
         // Toggle display of menu
         menu.classList.toggle("rm-clicked");
         menuButton.classList.toggle("rm-clicked");
@@ -132,7 +132,7 @@
     };
 */
 
-    window.addEventListener("resize", function(/* event */) {
+    window.addEventListener("resize", function (/* event */) {
         //clearMenu(event);
         setMaxMenuSize();
     });

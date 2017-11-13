@@ -6,6 +6,7 @@ Länk till kursen [dbwebb kurs design](http://dbwebb.se/design).
 
 GiHub länk till kursen [Github](https://github.com/Northernberg/Anax-flat).
 
+Github länk till theme-repo [Github](https://github.com/Northernberg/anax-flat-theme).
 Om mig
 ==============================================
 Tja! Jag heter Gustav och är nuvarande student på BTH där jag studerar Webbprogrammering.
