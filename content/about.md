@@ -1,6 +1,9 @@
-<img src="img/pexels.jpeg" width="1000" height="250" alt="pixels">
+
 Om sidan
 ==============================================
+<div class="about_img">
+<img src="img/pexels.jpeg" width="1000" height="250" alt="pixels">
+</div>
 
 Länk till kursen [dbwebb kurs design](http://dbwebb.se/design).
 
