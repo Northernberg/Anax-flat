@@ -46,6 +46,11 @@ return [
                 "url"   => $this->di->get("url")->create("analysis"),
                 "title" => t("Analysis stuff")
             ],
+            "Theme-selector" => [
+                "text"  => t("Theme-selector"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Theme-selector")
+            ],
         ],
     ],
 
