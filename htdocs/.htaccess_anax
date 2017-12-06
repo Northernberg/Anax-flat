@@ -4,8 +4,14 @@
 #
 RewriteEngine on
 
+# Rewrite to Anax frontcontroller
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule (.*) index.php/$1 [NC,L]
+
 # Rewrite for cimage
-RewriteRule ^image/(.*)$ cimage/imgd.php?src=$1 [QSA,NC,L] 
+RewriteRule ^image/(.*)$ cimage/imgd.php?src=$1 [QSA,NC,L]
 
 # Rewrite to Anax frontcontroller
 RewriteCond %{REQUEST_FILENAME} !-f

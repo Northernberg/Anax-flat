@@ -8,11 +8,15 @@ Vi använde oss utav devtools i både Firefox och Chrome för att få rådata f�
 Sedan för att få detaljerade optimeringsmetoder för sidorna använde vi oss av Google verktyget "PageSpeed".
 
 [Rådata](https://docs.google.com/spreadsheets/d/1nEQsetdla1sLf1t2owjlWzUYIUK_kWIlgHKKAZUtTk0/edit?usp=sharing)
-![Reddit](img/analysis/reddit.png)
-Reddit kan förbättra sin hemsida genom att minska sin svarstid från servern.
-![Komplett](img/analysis/komplett.png)
 
-![Dbwebb](img/analysis/dbwebb.png)
+
+[FIGURE src="image/analysis/reddit.png?w=700" caption="Youtube"]
+Reddit kan förbättra sin hemsida genom att minska sin svarstid från servern.
+
+[FIGURE src="image/analysis/komplett.png?w=700" caption="Komplett"]
+
+
+[FIGURE src="image/analysis/dbwebb.png?w=700" caption="Dbwebb"]
 
 Dator & Mobil
 -Ta bort JavaScript- och CSS-kod som blockerar renderingen från innehåll ovanför mitten

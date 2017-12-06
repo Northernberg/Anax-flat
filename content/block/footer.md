@@ -1,5 +1,5 @@
-Copyright &copy; 2017 [Gustav Nordberg]
+Copyright &copy; 2012-2016 [Mikael Roos](https://mikaelroos.se) (mos@dbwebb.se)
 
 * [License](license)
 * [Cookies](cookies)
-* [Kontakt](contact)
+* [Contact](contact)

@@ -22,34 +22,51 @@ return [
             ],
 
             "about" => [
-                "text"  => t("Om"),
+                "text"  => t("About"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om")
+                "title" => t("About this website")
             ],
+
             "test" => [
                 "text"  => t("test"),
                 "url"   => $this->di->get("url")->create("test"),
                 "title" => t("About this website")
             ],
+
             "grid" => [
                 "text"  => t("grid"),
                 "url"   => $this->di->get("url")->create("grid"),
                 "title" => t("Grid")
             ],
+
             "typography" => [
                 "text"  => t("Typography"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Typo stuff")
             ],
+
             "Analysis" => [
                 "text"  => t("Analysis"),
                 "url"   => $this->di->get("url")->create("analysis"),
                 "title" => t("Analysis stuff")
             ],
+
             "Theme-selector" => [
                 "text"  => t("Theme-selector"),
                 "url"   => $this->di->get("url")->create("theme-selector"),
                 "title" => t("Theme-selector")
+            ],
+
+            "blogg" => [
+                "text"  => t("blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("blogg")
+            ],
+
+            "images" => [
+                "text"  => t("images"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("test images")
             ],
         ],
     ],
@@ -78,12 +95,7 @@ return [
             "about" => [
                 "text"  => t("About"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
-            ],
-            "test" => [
-                "text"  => t("test"),
-                "url"   => $this->di->get("url")->create("test"),
-                "title" => t("About this website")
+                "title" => t("About this website"),
             ],
         ],
     ],

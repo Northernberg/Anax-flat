@@ -2,7 +2,7 @@
 # This is a modified rewrite to fit Anax when working on both local development
 # environment and publishing to www.student.bth.se.
 #
-# Do NOT forget to change /~mosstud/ to your own student acronym.
+# Do NOT forget to change /~guno17/ to your own student acronym.
 #
 RewriteEngine on
 
@@ -14,17 +14,17 @@ RewriteRule (.*) - [NC,L]
 
 # Rewrite 1 - For request via www.student.bth.se
 RewriteCond %{HTTP_HOST} ^www\.student\.bth\.se$ [NC]
-#RewriteRule ^image/(.*)$ /~mosstud/kod-exempel/anax-flat/htdocs/cimage/imgd.php?src=$1 [QSA,NC,L] 
-RewriteRule ^image/(.*)$ /~mosstud/dbwebb-kurser/design/me/anax-flat/htdocs/cimage/imgd.php?src=$1 [QSA,NC,L]
+#RewriteRule ^image/(.*)$ /~guno17/kod-exempel/anax-flat/htdocs/cimage/imgd.php?src=$1 [QSA,NC,L]
+RewriteRule ^image/(.*)$ /~guno17/dbwebb-kurser/design/me/anax-flat/htdocs/cimage/imgd.php?src=$1 [QSA,NC,L]
 
 RewriteCond %{HTTP_HOST} ^www\.student\.bth\.se$ [NC]
-#RewriteRule (.*) /~mosstud/kod-exempel/anax-flat/htdocs/index.php/$1 [NC,L]
-RewriteRule (.*) /~mosstud/dbwebb-kurser/design/me/anax-flat/htdocs/index.php/$1 [NC,L]
+#RewriteRule (.*) /~guno17/kod-exempel/anax-flat/htdocs/index.php/$1 [NC,L]
+RewriteRule (.*) /~guno17/dbwebb-kurser/design/me/anax-flat/htdocs/index.php/$1 [NC,L]
 
 
 # Rewrite 2 - For other requests
 RewriteCond %{HTTP_HOST} !^www\.student\.bth\.se$ [NC]
-RewriteRule ^image/(.*)$ cimage/imgd.php?src=$1 [QSA,NC,L] 
+RewriteRule ^image/(.*)$ cimage/imgd.php?src=$1 [QSA,NC,L]
 
 RewriteCond %{HTTP_HOST} !^www\.student\.bth\.se$ [NC]
 RewriteRule (.*) index.php/$1 [NC,L]

@@ -1,4 +1,4 @@
 Introduction
 ===============================
 
-Här kommer redovisningstexten för kursmomenten
+Here are my reports for the different kmoms.

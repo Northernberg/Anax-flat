@@ -4,7 +4,8 @@ Jag har valt hemsidorna: Youtube, Twitch och Facebook. Det dessa hemsidor har ge
 
 Facebook:
 ========================
-![Facebook](img/analysis/facebook.png)
+
+[FIGURE src="image/analysis/facebook.png?w=700" caption="Facebook."]
 
 Navbaren som facebook använder är av en ganska behaglig blå färg.
 Diverse element har även en kontrast av blå som t.ex bakgrunden på första sidan.
@@ -31,7 +32,8 @@ längre tid.
 </table>
 Twitch:
 ========================
-![Twitch](img/analysis/twitch.png)
+
+[FIGURE src="image/analysis/twitch.png?w=700" caption="Twitch."]
 
 Twitch använder sig utav ett mörkare färgschema med kontraster av lila och svart.
 Det känns inte som att det finns någon accentfärg då inga färger sticker direkt ut.
@@ -52,7 +54,7 @@ Därför är det en mer avslappnande känsla och själva sändningarna är i cen
 </table>
 Youtube:
 ========================
-![Youtube](img/analysis/youtube.png)
+[FIGURE src="image/analysis/youtube.png?w=700" caption="Youtube"]
 
 Youtube använder sig utav endast få enkla färger som får hemsidan att se simpel ut inom färg.
 Färgschemat utsöndrar sig i sin accentfärg: röd, vilket loggan för hemsidan och vissa länkar består av.
