@@ -66,5 +66,30 @@ return [
             "class"      => "fun",
             "stylesheets" => []
         ],
+        "design1"       => [
+            "title"      => "Design elements 1",
+            "class"      => "",
+            "stylesheets" => ["css/design1.min.css"]
+        ],
+        "gradient"       => [
+            "title"      => "Design elements 2",
+            "class"      => "",
+            "stylesheets" => ["css/gradient.min.css"]
+        ],
+        "design3"       => [
+            "title"      => "Design elements 3",
+            "class"      => "",
+            "stylesheets" => ["css/design3.min.css"]
+        ],
+        "harmony"       => [
+            "title"      => "Design principles 1",
+            "class"      => "",
+            "stylesheets" => ["css/harmony.min.css"]
+        ],
+        "movement"       => [
+            "title"      => "Design principles 2",
+            "class"      => "",
+            "stylesheets" => ["css/movement.min.css"]
+        ],
     ]
 ];
